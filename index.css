@@ -1,0 +1,156 @@
+body{
+	font-family:Patrick Hand SC;
+	font-size:25px;
+	background-image:url(../IMG/bgrnd.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:-1;
+	background-color: solid black;
+	background-position-y: -3px;
+	
+}
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    padding: 0px;
+	font-family: monoscope;
+	font-size:30px;
+	height: 72px;
+	font-variant: small-caps;
+	max-width: 100%;
+	background-color:#4F4F4F;background-color:rgba(0,0,0,0.69);-pie-background:rgba(0,0,0,0.69);	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index:2;
+	
+	
+	}
+.felso{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 0 !important;
+	position: sticky;
+	padding: 0 !important;
+	margin-left: 10px;
+	min-width: 30px;
+	}
+
+.buttons{
+	text: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	max-width: 100%;
+	margin-right: 0px;
+	align-items: center;
+	padding: horizontal;
+	
+	}
+
+.felso.img{
+	margin-top: 0 !important;
+	position: sticky;
+	color: #d2ce20;
+	padding: 0 !important;
+	margin-left: 130px;
+	width:auto;
+	height:70px;
+	}
+
+.felso.img p{
+	margin-top: 0px !important;
+	font-size: initial;
+	  		}
+
+button{
+	background-color:rgb(0, 0, 0, .0);
+	margin-right:5px;
+	border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: Arial;
+    display: inline-block;
+    font-size: 12px;
+	position: sticky;
+	margin-top: 0px;
+	height: auto;
+	widht: 0x;
+	}
+.felso.img img{width: auto;height:70px;}
+
+.hiba{
+	color: #d2ce20;
+	background-color:#4f4f4f78;
+	border-radius: 20px;
+    position: absolute;
+    margin-top: 45px;
+	padding: 0px 10px;
+
+
+}
+
+
+
+h1{
+	font-family:Cabin Sketch;
+	font-size:20px;
+	margin: 0 !important;
+}
+form{
+	background-color:#4f4f4f78;
+	color:white;
+	border-radius:20px;
+	min-height:550px;
+	width:270px;
+	padding:10px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	justify-content: space-evenly;
+	margin-top: 45px;
+	margin-bottom: 10px;
+	}
+#wrapper{
+	margin-top:-50px;
+	float:center;
+}
+input{
+	font-family:serif;
+	font-size:17px;
+	font-weight:bold;
+}
+select{
+	font-family:serif;
+	font-size:17px;
+	font-weight:bold;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	float: right;
+	max-width: 100%;
+	margin-top: 0 !important;
+	position: sticky;
+	padding: 0 !important;
+	margin-left: 10px;
+	}
+.form-group{
+	margin: 7px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	float: left;
+	display: contents;
+	}
+label:eq(0) {
+	margin-top:20px;
+	height: 10px;
+    font-size: 20px;
+
+	}
